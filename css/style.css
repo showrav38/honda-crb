@@ -19,7 +19,18 @@ i{
     font-weight: 300;
     color: #E0E0E0;
 }
-/* fixing accordion border try to make like the figma */
+
+.f-weight{
+    font-weight: 600 !important;
+}
+
+/* feature-bike  image */
+.gray{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+/* fixing accordion border trying to make like the figma */
 .accord{
     border: none !important;
     box-shadow: none !important;
