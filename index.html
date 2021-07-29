@@ -7,6 +7,8 @@
     <title>Honda Cbr</title>
     <!-- fabicon -->
     <link rel="shortcut icon" href="./images/feature-bike.jpg" type="image/x-icon">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- custom css stylesheet -->
@@ -16,19 +18,41 @@
     <!-- header section -->
     <header class="container-fluid"  style="background: #264653; padding: 70px 0;">
         <!-- banner section -->
-        <div class="container">
+        <div class="container banner">
             <div class="row d-flex align-items-center justify-space-between text-md-start">
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 header-font-w">
                     <small class="mb-5 text-white">Computer-controlled digital transistorized with electronic advance</small>
                     <h1 class="text-white my-3">Honda CBR 300R</h1>
-                    <p class="text-white mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
-                    <button class="bg-warning px-5 py-2 rounded-3 border-0 mb-5"><a class="text-decoration-none text-white border-0" href="">Purchase</a></button>
+                    <button class="px-5 py-2 rounded-3 border-0 mb-5 text-white" style="background: #E76F51;" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</a></button>
                 </div>
+
+                <!-- feature image -->
                 <div class="col-lg-6 col-12 text-center">
                     <img class="img-fluid" src="./images/header-bike.png" alt="">
                 </div>
             </div>
+
+            <!-- modal -->
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">A Big Discount on sell is going</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            hello! our biggest Discount offer is just going.please Purchase your bike as soon as possible.you can purchase as many as you want,limited offfer.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" style="background: #E76F51;" class="btn" data-bs-dismiss="modal">Close</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </header>
 
@@ -43,13 +67,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-12 col-md-6 mx-sm-auto sm-width-100 text-center my-4">
-                    <img class="img-fluid" width="280px" height="235px" src="./images/feature-bike.jpg" alt="">
+                    <img class="img-fluid" width="280px" height="235px" src="./images/gray.png" alt="">
                 </div>
                 <div class="col-lg-4 col-12 col-md-6 text-center my-4">
                     <img class="img-fluid" width="280px" height="235px" src="./images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-lg-4 col-12 col-md-6 text-center my-4">
-                    <img class="img-fluid" width="280px" height="235px" src="./images/feature-bike.jpg" alt="">
+                    <img class="img-fluid" width="280px" height="235px" src="./images/gray.png" alt="">
                 </div>
             </div>
             
@@ -57,8 +81,218 @@
 
         <!-- Client Section -->
         <!-- Client Section -->
-        
-        
+        <section class="container mx-auto">
+            <h1 class="text-center mt-5 mb-3">Happy <span style="color: #E76F51;" class="d-block d-md-inline-block">Clients Says</span></h1>
+            <div class="row d-lg-flex justify-content-center justify-content-md-between justify-content-lg-center g-sm-2">
+
+                <!-- Client 1 -->
+                <div class="col-lg-3 col-md-5 col-10 border border-2 rounded-3 p-2 my-5 text-center">
+                    <div>
+                        <img height="149px" width="149px" src="./images/user-1.png" class="img-fluid my-4" alt="">
+                    </div>
+                    <div>
+                        <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                        </p>
+                    </div>
+                    <div class="my-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <small class="text-primary d-inline-block mb-3 fw-bold">Regina Miles</small>
+                    <br>
+                    <small class="text-dark fw-bold">Banker</small>
+                </div>
+
+                <!-- client 2 -->
+                <div class="col-lg-3 col-md-5 col-10 border border-2 rounded-3 p-2 my-5 text-center ms-lg-4">
+                    <div>
+                        <img height="149px" width="149px" src="./images/user-2.png" class="img-fluid my-4" alt="">
+                    </div>
+                    <div>
+                        <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                        </p>
+                    </div>
+                    <div class="my-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <small class="text-primary d-inline-block mb-3 fw-bold">Regina Miles</small>
+                    <br>
+                    <small class="text-dark fw-bold">Banker</small>
+                </div>
+
+                <!-- client 3 -->
+                <div class="col-lg-3 col-md-5 col-10 border border-2 rounded-3 p-2 my-5 text-center ms-lg-4">
+                    <div>
+                        <img height="149px" width="149px" src="./images/user-3.png" class="img-fluid my-4 rounded-circle" alt="">
+                    </div>
+                    <div>
+                        <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                        </p>
+                    </div>
+                    <div class="my-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <small class="text-primary d-inline-block mb-3 fw-bold">Regina Miles</small>
+                    <br>
+                    <small class="text-dark fw-bold">Banker</small>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- Faq section -->
+        <!-- Faq section -->
+        <section class="container">
+            <!-- heading text -->
+            <h1 class="text-center my-5">Frequently Asked <span style="color: #E76F51">Questions</span></h1>
+            <div class="row d-flex justify-content-center align-items-center">
+                <!-- image  -->
+                <div class="col-lg-4 mx-auto col-md-5 col-10">
+                    <img src="./images/faq.png" class="img-fluid" alt="">
+                </div>
+                <!-- accordion  -->
+                <div class="col-lg-6 mx-auto col-md-6 col-12 my-5">
+                    <div class="accordion accord" id="accordionExample">
+
+                        <div class="accordion-item accord accord1">
+                          <h2 class="accordion-header accord1 fw-bold" id="headingOne">
+                            <button class="accordion-button accord accord1 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should know about riding a bike?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show accord" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body accord2">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p> 
+                            </div>
+                          </div>
+                        </div>
+                        <br>
+
+
+                        <div class="accordion-item accord accord1">
+                          <h2 class="accordion-header accord1" id="headingTwo">
+                            <button class="accordion-button collapsed accord accord1 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I tell if my helmet is old and I need a new one?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body accord2">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                          </div>
+                        </div>
+                        <br>
+
+                        <div class="accordion-item accord accord1">
+                          <h2 class="accordion-header accord1" id="headingThree">
+                            <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body accord2">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item accord accord1 mt-4">
+                            <h2 class="accordion-header accord1" id="headingFour">
+                              <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  My bike has been in storage is it safe to ride?
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body accord2">
+                                <p>  Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                              </div>
+                            </div>
+                          </div>
+
+                        
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsroom Section -->
+
+        <section class="container-fluid">
+
+            <h1 class="text-center my-5">NEWSROOM</h4>
+            <div class="row">
+                <div class="col-lg-6 col-12 col-md-6 p-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-4 col-4 border border-1">
+                            <a href=""><img src="./images/news1.gif" class="img-fluid text-center" alt=""></a>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-7">
+                            <h6><a href="" class="text-decoration-none text-dark">Honda Sets All-Time Accumulated Production Records for the First Half of Year in China</a></h4>
+                            <p>July 29,2021 japan</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-12 col-md-6 p-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-4 col-4 border border-1">
+                            <a href=""><img src="./images/news2.jpg" class="img-fluid text-center py-3" alt=""></a>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-7">
+                            <h6><a href=""class="text-decoration-none text-dark">Honda Reaches 15 Million-unit Mark in Cumulative Power Products Production in China</a></h4>
+                            <p>July 29,2021 japan</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-12 col-md-6 p-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-4 col-4 border border-1">
+                            <a href=""><img src="./images/news3.jpg" class="img-fluid text-center" alt=""></a>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-7">
+                            <h6><a href=""class="text-decoration-none text-dark">Honda Reaches 15 Million-unit Mark in Cumulative Power Products Production in China</a></h4>
+                            <p>July 29,2021 japan</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-12 col-md-6 p-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-4 col-4 border border-1">
+                            <a href="#"><img src="./images/news4.jpg" class="img-fluid text-center py-3" alt=""></a>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-7">
+                            <h6><a href=""class="text-decoration-none text-dark">Honda Reaches 15 Million-unit Mark in Cumulative Power Products Production in China</a></h4>
+                            <p>July 29,2021 japan</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>        
     </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,39 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* color correcttion */
+p{
+    color: #6C6C6C;
+}
+
+i{
+    color: #E77C40;;
+}
+
+.banner .header-font-w p{
+    font-weight: 300;
+    color: #E0E0E0;
+}
+/* fixing accordion border try to make like the figma */
+.accord{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accord1{
+    border: 1px solid #D5E5FB;
+    border-radius: 5px;
+}
+.accord2{
+    border-left: 1px solid #D5E5FB;
+    border-right: 1px solid #D5E5FB;
+    border-bottom: 1px solid #D5E5FB;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
